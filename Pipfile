@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+sorl-thumbnail = "*"
+django-private-storage = "*"
+django-phonenumber-field = "*"
+django-crispy-forms = "*"
+djangorestframework = "*"
+django-model-reviews = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"

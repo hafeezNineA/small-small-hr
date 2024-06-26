@@ -78,6 +78,8 @@ SITE_ID = 1
 # snapshot testing
 TEST_RUNNER = "snapshottest.django.TestRunner"
 
+ALLOWED_HOSTS = ['*']
+
 # try and load local_settings if present
 try:
     # pylint: disable=wildcard-import
